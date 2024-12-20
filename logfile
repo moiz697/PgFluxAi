@@ -1,0 +1,12 @@
+2024-12-20 21:37:54.218 PKT [1231405] LOG:  starting PostgreSQL 17.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-12-20 21:37:54.218 PKT [1231405] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-12-20 21:37:54.220 PKT [1231405] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-12-20 21:37:54.222 PKT [1231408] LOG:  database system was shut down at 2024-12-20 21:37:26 PKT
+2024-12-20 21:37:54.224 PKT [1231405] LOG:  database system is ready to accept connections
+2024-12-20 21:42:54.322 PKT [1231406] LOG:  checkpoint starting: time
+2024-12-20 21:42:58.651 PKT [1231406] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.310 s, sync=0.009 s, total=4.330 s; sync files=11, longest=0.009 s, average=0.001 s; distance=273 kB, estimate=273 kB; lsn=0/152A6C0, redo lsn=0/152A668
+2024-12-20 21:47:54.781 PKT [1231405] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-12-20 21:47:54.781 PKT [1231405] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-12-20 21:47:54.781 PKT [1231405] LOG:  received immediate shutdown request
+2024-12-20 21:47:54.781 PKT [1231405] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-12-20 21:47:54.785 PKT [1231405] LOG:  database system is shut down
