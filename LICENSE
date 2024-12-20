@@ -10,6 +10,6 @@ readme = "README.md"
 keywords = ["CLI", "pgai", "tooling"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: none License",
     "Operating System :: OS Independent"
 ]
