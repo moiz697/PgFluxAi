@@ -1,0 +1,7 @@
+flake8
+build
+setuptools
+wheel
+click>=8.0.0
+flask
+psycopg2-binary

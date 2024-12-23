@@ -1,0 +1,5 @@
+click>=8.0
+psycopg2>=2.9
+pytest>=7.0
+flake8>=3.9
+build>=0.7.0

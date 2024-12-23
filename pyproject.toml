@@ -1,15 +1,35 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pgai"
+name = "pgflux"
 version = "0.1.0"
-description = "A command-line interface for pgai functionality."
-authors = [{ name="Your Name", email="your.email@example.com" }]
-license = { text = "MIT" }
+description = "A CLI tool for PostgreSQL management and extensions"
 readme = "README.md"
-dependencies = ["click>=8.0.0"]
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+
+dependencies = [
+    "click>=8.0",
+    "psycopg2>=2.9",
+    "pytest>=7.0",
+    "flake8>=3.9",
+    "build>=0.7.0"
+]
+
+[project.urls]
+homepage = "https://github.com/your-repo/pgflux"
+repository = "https://github.com/your-repo/pgflux"
 
 [project.scripts]
-pgai = "pgai.cli:main"
+pgflux = "pgflux.cli:pgflux_cli"
+
+[tool.setuptools.package-data]
+pgflux = ["*"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
